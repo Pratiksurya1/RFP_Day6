@@ -25,8 +25,20 @@ namespace Day6LogicalProgramming
             //whatch whatch = new whatch();
             //whatch.m1();
 
-            QuotientRemainder qu = new QuotientRemainder();
-            qu.CheckQuotientRem();
+            //VendingMaching vendingMaching = new VendingMaching();
+            //vendingMaching.vendingMachine();
+
+            //DayOfWeek dayOfWeek = new DayOfWeek();
+            //dayOfWeek.checkDayOfWeek();
+
+            //TemConversion temConversion = new TemConversion();
+            //temConversion.Conversion();
+
+            //MonthlyPayment payment = new MonthlyPayment();
+            //payment.monthlyPayment();
+
+            CouponNumber couponNumber = new CouponNumber();
+            couponNumber.GenerateCouponCode();
         }
     }
 }
