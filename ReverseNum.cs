@@ -15,8 +15,8 @@ namespace Day6LogicalProgramming
             int num = Int32.Parse(Console.ReadLine());  
             while(num != 0)
             {
-                int tem = num % 10;
-                rev=rev * 10 + tem;
+                int rem = num % 10;
+                rev=rev * 10 + rem;
                 num = num / 10;
             }
             Console.WriteLine(" ReverseNum number is "+rev);

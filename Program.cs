@@ -13,14 +13,20 @@ namespace Day6LogicalProgramming
             //FibonacciSeries f = new FibonacciSeries();
             //f.FibonacciNum();
 
-            PerfectNumber perfectNumber = new PerfectNumber();
-            perfectNumber.checkNum();
+            //PerfectNumber perfectNumber = new PerfectNumber();
+            //perfectNumber.checkNum();
 
             //PrimeNum num = new PrimeNum();  
             //num.primecheck();
 
             //ReverseNum reverseNum = new ReverseNum();
             //reverseNum.checkNum();
+
+            //whatch whatch = new whatch();
+            //whatch.m1();
+
+            QuotientRemainder qu = new QuotientRemainder();
+            qu.CheckQuotientRem();
         }
     }
 }
